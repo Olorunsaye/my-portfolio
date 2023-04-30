@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: goldenrod;
+    font-weight: bold;
+    font-style: normal;
+    font-size: large;
+}
+img{
+    width: 150px;
+    border-radius: 75px;
+    float: inline-start;   
+    height: 150px; 
+
+}
+
+.home-container{
+    border: 10px;
+    margin: 20px;
+    font-weight: lighter;
+    background-color: cadetblue;
+    
+    
+}
+
+
+.about-container{
+    border: 10px;
+    margin: 20px;
+    font-size: medium; 
+
+    
+}
+
+
+
+.About{
+    font-family: cursive;
+    background-color: coral;
+}
+
+
+.contact-container{
+    border: 10px;
+    margin: 20px;
+    background-color: teal
+}
+<div class="navbar">
+    <nav>
+    <div class="nav-link active">
+        <a class="nav-link" href="#home" id="#Home"> Home|</div>
+        
+        
+        <div class="nav-item active">
+         <a class="nav-link" href="#about" id="About"> About|</div>
+        
+        <div class="nav-item active">
+            <a class="nav-link" href="#contact" id="contact"> Contact|</div>
+            
+        </div>
+    </nav>
+.contact-area{
+    border: 10%;
+    margin: 3%;
+   
+}
+
+
+.h2{
+    font-weight: lighter;    
+}
+.navbar{
+    font-weight: bold;
+    text-align: right;
+
+}
+
+.form-input{
+    text-align: center;
+    font-weight: bolder;
+    
+}
